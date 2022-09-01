@@ -23,7 +23,7 @@ Below is a our results on the increase in the relative error of the estimator wh
  <br />
 
 One can read my internship report for insights about the statistical procedure and the way the code is designed :
-https://github.com/amaurylancelin/lbl_project1/blob/779df2fc0d1e07228b662eb2683da5eaba49bf44/npFDT/report.pdf
+[https://github.com/amaurylancelin/lbl_project1/blob/779df2fc0d1e07228b662eb2683da5eaba49bf44/npFDT/report.pdf](https://github.com/amaurylancelin/npFDT/blob/ecc158f3fa3e604118237fc41d356d2d0f4362dd/report.pdf)
 
 
 ## **1. Project Structure**
