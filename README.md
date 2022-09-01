@@ -1,6 +1,6 @@
 # **Non-parametric Fluctuation-Dissipation theorem**
 
-This repository contains the code from my work on the Fluctuation-Dissipation theorem during my internship at Lawrence Berkeley National Laboratory (LBNL), under the supervision of William D. Collins.
+This repository contains the code from my work on the Fluctuation-Dissipation theorem during my internship at Lawrence Berkeley National Laboratory (LBNL) in 2022, under the supervision of William D. Collins.
 
 Thgrought this project, we studied a tool for evaluating the response to a perturbation of dynamical systems
 by using the fluctuation-dissipation theorem (FDT). Such approach could for instance be very useful
