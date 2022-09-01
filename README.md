@@ -18,7 +18,7 @@ Below is a our results on the increase in the relative error of the estimator wh
 
 <p align="center">
  
-  <img src="outputs/archived_plots/the_dim_curve_5e4.png" background-color="red" title="Relative error vs # of dimensions " width="450" height="360">
+  <img src="outputs/plots/the_dim_curve_5e4.png" background-color="red" title="Relative error vs # of dimensions " width="450" height="360">
 </p>
  <br />
 
