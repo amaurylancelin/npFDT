@@ -2,7 +2,7 @@
 
 This repository contains the code from my work on the Fluctuation-Dissipation theorem during my internship at Lawrence Berkeley National Laboratory (LBNL) in 2022, under the supervision of William D. Collins.
 
-Thgrought this project, we studied a tool for evaluating the response to a perturbation of dynamical systems
+Throughout this project, we studied a tool for evaluating the response to a perturbation of dynamical systems
 by using the fluctuation-dissipation theorem (FDT). Such approach could for instance be very useful
 to assess the climate response to an increase in $CO_2$. Following in the footsteps of F. Cooper in https://journals.ametsoc.org/view/journals/atsc/68/5/2010jas3633.1.xml,
 we studied a version of this theorem based on non-parametric estimation of PDFs of systems. Such
