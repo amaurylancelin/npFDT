@@ -10,9 +10,9 @@ from src.utils import*
 # Linear model dynamic
 def linear_model(model_params, f):
     """
-    It takes a matrix $ and a function $ and returns a function that takes a state $ and a time
-    $ and returns the next state '$ according to the linear model ' = Bx + f(t) + \epsilon$ where
-    $\epsilon$ is a random white noise term
+    It takes a matrix B and a function f and returns a function that takes a state x(t) at time t
+    and returns the next state x(t+dt) according to the linear model $dx/dt = Bx + f(t) + \epsilon$ where
+    $\epsilon$ is a random white noise term.
     
     :param B: the matrix of coefficients for the linear model
     :param f: a function that takes in a time and returns a vector of the same size as the state
@@ -29,11 +29,10 @@ def linear_model(model_params, f):
 
 
 # Initial condition for the linear model 
-def init_cond_LM(B,noise, seed=None):
+def init_cond_LM(B, noise, seed=None):
     """
-    It solves the Lyapunov equation  + C_0B^T = -Q$ for $, then finds the eigenvalues and
-    eigenvectors of $, and then uses the eigenvectors to generate a random vector $ with the
-    same covariance as $
+    It solves the Lyapunov equation  $B C_0 + C_0 B^T = -Q$ for B, then finds the eigenvalues and
+    eigenvectors of C_0, and then uses it to generate a random vector x0 that serves as initial condition.
     
     :param B: the state transition matrix
     :param noise: the standard deviation of the noise in the system
